@@ -1,4 +1,4 @@
-需安裝requests, scikit-learn
+需安裝pandas, scikit-learn
 
 分工:
 資工三 110590029 陳思群 : 撰寫程式、測試程式
