@@ -1,0 +1,13 @@
+前置:
+需安裝 gensim, scikit-learn, pandas
+需要修改路徑，將 py 檔跟 combined.csv 放在同個資料夾下，且確保路徑是對的。
+
+使用說明:
+similarity_estimate : 可以在程式最下面自行更改 word1, word2
+analogy_prediction : 可以在 main function 裡面自行更改 word1, word2, word3
+optional1 : 可以更改資料夾裡的 file1.txt, file2.txt
+optional2 : 使用上次 hw1 的程式碼進行修改
+
+分工:
+資工三 110590029 陳思群 : 撰寫程式、測試程式
+資工三 110590027 歐陽銳 : 撰寫程式、測試程式
