@@ -1,13 +1,17 @@
 前置:
-需安裝 gensim, scikit-learn, pandas
-需要修改路徑，將 py 檔跟 combined.csv 放在同個資料夾下，且確保路徑是對的。
+	需安裝 gensim, scikit-learn, pandas, numpy, glob, scipy
+	需要修改路徑 : 
+		將 similarity_estimate.py 跟 combined.csv 放在同個資料夾下
+		將 analogy_prediction.py 跟 BATS_3.0 放在同個資料夾下
+		將 optional1.py 跟 file1.txt, file2.txt 放在同個資料夾下
+		將 optional2.py 跟 train.txt, test.txt 放在同個資料夾下
 
 使用說明:
-similarity_estimate : 可以在程式最下面自行更改 word1, word2
-analogy_prediction : 可以在 main function 裡面自行更改 word1, word2, word3
-optional1 : 可以更改資料夾裡的 file1.txt, file2.txt
-optional2 : 使用上次 hw1 的程式碼進行修改
+	similarity_estimate : 使用 combined.csv 的資料進行相似度比較，如要更改內容需得更改 combined.csv
+	analogy_prediction : 可以在程式最下面自己更改 word 進行預測
+	optional1 : 可以更改資料夾裡的 file1.txt, file2.txt 進行相似度比較
+	optional2 : 使用上次 hw1 的程式碼進行修改，測試經過 embedding 後的分類是否有變化
 
 分工:
-資工三 110590029 陳思群 : 撰寫程式、測試程式
-資工三 110590027 歐陽銳 : 撰寫程式、測試程式
+	資工三 110590029 陳思群 : 撰寫程式、測試程式
+	資工三 110590027 歐陽銳 : 撰寫程式、測試程式
